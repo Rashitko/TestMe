@@ -1,0 +1,12 @@
+{"class":"Anatómia","questions":[
+{"category":"Oporná sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 1","rightAnswers":[0]},
+{"category":"Oporná sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 2","rightAnswers":[0,1]},
+{"category":"Svalová sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 3","rightAnswers":[0,1,2]},
+{"category":"Svalová sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 4","rightAnswers":[0,1,2,3]},
+{"category":"Nervová sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 5","rightAnswers":[0]},
+{"category":"Cievna sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 6","rightAnswers":[0]},
+{"category":"Cievna sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 7","rightAnswers":[0]},
+{"category":"Tráviaca sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 8","rightAnswers":[0]},
+{"category":"Tráviaca sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 9","rightAnswers":[0]},
+{"category":"Oporná sústava","answers":["Možnosť číslo 1","Možnosť číslo 2","Možnosť číslo 3","Možnosť číslo 4"],"question":"Otázka č. 10","rightAnswers":[0]}
+]}

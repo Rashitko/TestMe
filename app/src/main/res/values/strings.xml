@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TestMe</string>
+    <string name="choose_file">Vybrať súbor</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="button_text_create_test">vytvoriť nový test</string>
+    <string name="button_text_resume_test">pokračovať v teste</string>
+    <string name="button_text_manage_tests">spravovať otázky</string>
+    <string name="review_tests" >prezerať vypracované test</string>
+
+    <string name="button_text_add_questions">pridať nové otázky</string>
+    <string name="questions_saved">Počet pridaných otázok: </string>
+    <string name="no_classes">nemáte uložené žiadne otázky</string>
+    <string name="button_text_back">naspäť</string>
+    <string name="button_text_start_test">začať test</string>
+    <string name="questions_count">počet otázok</string>
+    <string name="questions_total_count">/ </string>
+    <string name="too_much_questions_selected">Zadali ste príliš veľký počet otázok</string>
+    <string name="too_few_questions_selected">Zadali ste príliš malý počet otázok</string>
+    <string name="wrong_question_count_error">Zadajte počet otázok</string>
+    <string name="wrong_time_limit_error">Zadajte časový limit na vypracovanie testu</string>
+    <string name="time_limit">časový limit na vypracovanie testu</string>
+    <string name="time_limit_hint">počet minút na vypracovanie testu</string>
+    <string name="too_few_categories_selected">Musíte vybrať aspoň jeden okruh</string>
+    <string name="test">test</string>
+    <string name="question">otázka</string>
+    <string name="right">správne</string>
+    <string name="button_text_prev">Predošlá</string>
+    <string name="button_text_next">Ďalšia</string>
+    <string name="resume">pokračovať v teste</string>
+    <string name="error_first_question">Ste na prvej otázke</string>
+    <string name="error_select_option">Zvolte aspoň jednu možnosť</string>
+    <string name="complete">Vyhodnotiť</string>
+    <string name="time_limit_row_text">časový limit</string>
+    <string name="minute">min</string>
+    <string name="error">Chyba</string>
+    <string name="warning">Upozronenie</string>
+    <string name="test_complete">Vyplnili ste poslednú otázku, správne odpovede nájdete v príslušnej sekcií</string>
+    <string name="time_up">Vypršal čas, správne odpovede nájdete v príslušnej sekcií</string>
+</resources>

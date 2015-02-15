@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/question_count_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:id="@+id/questions_selected_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="2"
+            android:hint="@string/questions_count"/>
+
+        <TextView
+            android:id="@+id/questions_total_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/time_limit_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/question_count_wrapper">
+
+        <CheckBox
+            android:id="@+id/limited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/limited_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/limited"
+            android:layout_toEndOf="@+id/limited"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:text="@string/time_limit"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/time_limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:visibility="gone"
+        android:hint="@string/time_limit_hint"
+        android:layout_below="@+id/time_limit_wrapper"/>
+
+    <ListView
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:choiceMode="multipleChoice"
+        android:layout_below="@+id/time_limit"
+        android:layout_above="@+id/buttons_wrapper"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_text_back"
+            style="?android:borderlessButtonStyle"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/red" />
+
+        <Button
+            android:id="@+id/start_test"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_text_start_test"
+            style="?android:borderlessButtonStyle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@color/primary"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
